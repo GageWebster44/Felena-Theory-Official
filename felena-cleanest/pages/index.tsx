@@ -1,7 +1,16 @@
 export default function Home() {
-  return (
-    <main style={{ padding: 40, fontSize: 32 }}>
-      Felena Theory is Live 🎯
-    </main>
-  );
+  return (
+    <main style={{
+      fontSize: '2rem',
+      padding: '2rem',
+      color: '#fff',
+      background: '#000',
+      height: '100vh',
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'center'
+    }}>
+      <div>⚡ Felena Theory is Live 🎯</div>
+    </main>
+  )
 }
